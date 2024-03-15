@@ -1,0 +1,385 @@
+/*🔴🟠🟡 Fonts used 🔴🟠🟡*/
+/*📝 Figtree : font-family: "Figtree", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+/*📝 Raleway : font-family: "Raleway", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/*🔴🟠🟡 Header 🔴🟠🟡*/
+.navbar {
+  font-family: "Figtree", sans-serif;
+  font-weight: 700;
+}
+.navbar-nav li a {
+  font-size: 12px;
+}
+
+.navbar-nav .nav-item {
+  padding: 0 8px;
+}
+
+#navbarRightNum span {
+  color: #3aaa35;
+  font-size: 20px;
+}
+
+#navbarRightLinks a {
+  text-decoration: none;
+  color: #004f24;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#navbarRightLinks span {
+  color: #004f24;
+}
+
+/*🔴🟠🟡 About 🔴🟠🟡*/
+#about {
+  background-color: #004f24;
+}
+#about h6 {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 4px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+#about h4 {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  font-size: 44px;
+  margin-top: -5px;
+  font-weight: 600;
+}
+
+#about .bold-text,
+#about .small-text {
+  font-family: "Figtree", sans-serif;
+  color: #ffffff;
+}
+#about .bold-text {
+  font-size: 22px;
+}
+
+#about .small-text {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+/*🔴🟠🟡 Meet the Team 🔴🟠🟡*/
+#team {
+  font-family: "Figtree", sans-serif;
+}
+#team h1 {
+  color: #004f24;
+  font-size: 48px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+#team .member-name {
+  color: #3aaa35;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#team .member-role {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 14px;
+}
+
+#team .member-contact {
+  color: #004f24;
+  font-size: 14px;
+}
+
+#team .more-info {
+  color: #004f24;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+/*🔴🟠🟡 Profile 🔴🟠🟡*/
+
+#profile {
+  font-family: "Figtree", sans-serif;
+  position: relative;
+}
+
+#profile .close-btn {
+  position: absolute;
+  top: 40px;
+  right: 220px;
+  width: 16px;
+}
+
+#profile .profile-img {
+  width: 330px;
+}
+
+#profile h1 {
+  font-family: "Raleway", sans-serif;
+  color: #3aaa35;
+  font-weight: 600;
+}
+
+#profile .profile-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#profile .profile-details img {
+  width: 16px;
+}
+
+#profile .profile-contact p {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+#profile .profile-contact img {
+  margin: 0 10px 0 0;
+}
+
+#profile .asked-questions p {
+  margin: 0;
+  padding: 0;
+
+  font-size: 12px;
+}
+
+#profile .profile-questions {
+  color: #004f24;
+  font-weight: 700;
+}
+
+/*🔴🟠🟡 Community Banner 🔴🟠🟡*/
+
+#community {
+  background-image: linear-gradient(
+      rgba(82, 76, 76, 0.7),
+      rgba(67, 67, 67, 0.7)
+    ),
+    url("../assets/community-banner-img.jpg");
+
+  background-size: cover;
+  background-position: 20% 30%;
+  height: 450px;
+}
+
+#community h1 {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+#community .btn-custom {
+  padding: 4px 20px;
+  background-color: #3aaa35;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+#community .btn-custom:hover {
+  padding: 4px 20px;
+  background-color: #288a23;
+}
+
+/*🔴🟠🟡 Footer 🔴🟠🟡*/
+footer {
+  font-family: "Figtree", sans-serif;
+  background-color: #004f24;
+}
+footer p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+footer h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer-hours h6 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #3aaa35;
+}
+
+.footer-hours p {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+footer .btn-custom {
+  padding: 4px 20px;
+  background-color: #3aaa35;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+footer .btn-custom:hover {
+  padding: 4px 20px;
+  background-color: #288a23;
+}
+
+footer .social-icons img {
+  width: 15px;
+}
+
+footer .footer-policy {
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 24px;
+}
+
+.footer-logo,
+.footer-hours,
+.footer-contact,
+.footer-portals,
+.footer-socials {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+/*🔴🟠🟡 Media Query Mobile Responsiveness 🔴🟠🟡*/
+/* Large screens (lg) */
+@media (min-width: 992px) {
+  /* CSS rules specific to large screens */
+}
+
+/* Medium screens (md) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS rules specific to medium screens */
+  #about .bold-text {
+    font-size: 16px;
+  }
+
+  #about .small-text {
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+  #profile .profile-details {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+  }
+
+  #profile .asked-questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #profile .close-btn {
+    display: none;
+  }
+
+  #community {
+    display: flex;
+    flex-direction: column;
+  }
+  #community .btn-custom {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .footer-logo,
+  .footer-hours,
+  .footer-contact,
+  .footer-portals,
+  .footer-socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer h5 {
+    margin-top: 20px;
+  }
+}
+
+/* Small screens (sm) */
+@media (max-width: 767px) {
+  /* CSS rules specific to small screens */
+  #about .bold-text {
+    font-size: 14px;
+  }
+
+  #about .small-text {
+    font-size: 10px;
+    font-weight: 200;
+  }
+
+  #profile .profile-details {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+  }
+
+  #profile .close-btn {
+    display: none;
+  }
+
+  #profile .asked-questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #community {
+    display: flex;
+    flex-direction: column;
+  }
+  #community .btn-custom {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .footer-logo,
+  .footer-hours,
+  .footer-contact,
+  .footer-portals,
+  .footer-socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer h5 {
+    margin-top: 20px;
+  }
+}
